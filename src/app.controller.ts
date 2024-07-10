@@ -1,5 +1,4 @@
 import { Body, Controller, Post, Res } from '@nestjs/common';
-import { AppService } from './app.service';
 import { marked } from './utils/markdown';
 import { Response } from 'express';
 import * as stream from 'stream';
@@ -9,7 +8,6 @@ class MdContentDto {
 
 @Controller('md')
 export class AppController {
-  constructor(private readonly appService: AppService) {}
 
   @Post('to-html')
   convertMdToHtml(@Body() body: MdContentDto, @Res() res: Response) {
