@@ -2,7 +2,7 @@
 
 Clone the repo using ssh
 ``` cmd
-git@github.com:Mahesh1356/Markdown-editor.git
+git@github.com:Mahesh1356/markdown-editor-backend.git
 ```
 
 **Commands to run this app** run
