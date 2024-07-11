@@ -14,6 +14,12 @@ npm install
 npm run start:dev
 ```
 
+To run test 
+
+```bash 
+npm run test
+```
+
 ** *
 
 **Note:** *Make sure that you are running frontend app*
